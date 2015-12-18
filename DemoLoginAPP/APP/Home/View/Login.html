@@ -1,0 +1,15 @@
+﻿<section class="loginform cf">
+    <form name="login" ng-submit="Login()" class="ng-pristine ng-invalid ng-invalid-required" autocomplete="off" accept-charset="utf-8">
+        <div class="login-block">
+            <h1>Login</h1>
+            <input type="text" style="display:none">
+            <input type="password" style="display:none">
+            <input type="text" value="" placeholder='{{lblUserName}}' id="username" class="ng-pristine ng-invalid ng-invalid-required" data-ng-model="userId" autofocus autocomplete="off" />
+            <input type="password" value="" placeholder='{{lblPassword}}' id="password" class="ng-pristine ng-invalid ng-invalid-required" data-ng-model="password" autocomplete="off" />
+            <input type="submit" class="btnSubmit" id="submitbtn" value="Login">
+            <div data-ng-bind="error" data-ng-show="error" class="alert alert-danger"></div>
+        </div>
+        
+    </form>
+    
+</section>

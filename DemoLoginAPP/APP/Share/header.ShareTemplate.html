@@ -1,0 +1,57 @@
+﻿<!--<header id='header-wrapper' style="height:50px;">
+    <div id='headisi'>
+        <div class='header section' id='header'>
+            <div class='widget Header' id='Header1'>
+                <div id='header-inner'>
+                    <div class='titlewrapper'>
+                        
+                        <p class='title' id="blogtitle">
+                            <img src="Images/FirstCrazyDeveloper_Title.jpg" alt="First Crazy Developer" title="First Crazy Developer" />
+                            <div class="logo"> Demo Login Application</div>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='header section' id='adstop'></div>
+        <div class='klearx'>&#160;</div>
+    </div>
+</header>-->
+
+<header>
+    <nav class="navbar navbar-fixed-top navbar-inverse">
+        <div class="top-header container-fluid">
+            <div class="navbar-header" style="width:100%">
+                <div class="logo" style="float:left;"> Demo Login Application</div>
+                <div class="headerMenu" >
+                    <div class="dropdown" ng-show="SecurityService.GetCurrentUser().isAuthenticate">
+
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            {{SecurityService.GetCurrentUser().userName}}<span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a ng-click="SecurityService.Logoff()">LogOff</a></li>
+
+                        </ul>
+
+                    </div>
+ 
+               
+                </div> 
+                
+
+            </div>
+            <div class="navbar-collapse collapse" id="fp-navbar">
+                <div class="navbar-right">
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--<div class="bottomfixedcontent" style="text-align:center">
+    <span>&copy; {{'' | currentdate}} - First Crazy Developer (Abhishek Kumar)</span>
+
+</div>-->

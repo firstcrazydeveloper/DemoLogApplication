@@ -1,0 +1,155 @@
+﻿
+body {
+    /*background: url('http://i.imgur.com/Eor57Ae.jpg') no-repeat fixed center center;*/
+     background: url('../../Resources/Images/wood_pattern.png');
+    /*background-size: cover;*/
+    font-family: Montserrat;
+}
+.navbar-inverse {
+  background-color: #ff7b81!important;
+  border-color: #ff656c!important;
+}
+.btn-default {
+  color: #fff!important;
+  background: transparent!important;
+  border-color: none!important;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  color: #ff656c!important;
+  background-color: #fff!important;
+  border-color: #ff656c!important;
+}
+.headerMenu{
+    float:right;margin-top:5px;margin-right:60px;
+}
+.btn-default .caret{
+    margin-left:5px!important;
+    border-top-color: #fff!important;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  color: #fff!important;
+  text-decoration: none;
+  background-color: #ff656c!important;
+  cursor:pointer;
+}
+.dropdown-menu > li > a
+{
+     color: #ff656c!important;
+     cursor:pointer;
+}
+
+.logo {
+   
+    /*height: 60px;
+    background: url('../../Resources/Images/CodingAlmanacTitle.gif') no-repeat;
+    margin: 30px 26% auto;*/
+
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    padding-left:30px;
+    /*margin-top: 50px;
+    margin-bottom: 20px;*/
+}
+
+.loginform {
+	width: 360px;
+	margin: 100px auto;
+	padding: 5px;
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.homepage {	
+	margin: 50px 30px;
+	padding: 5px;
+    min-height:400px;
+	background-color: rgba(250,250,250,0.5);
+	border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2), 
+    			inset 0px 1px 0px 0px rgba(250, 250, 250, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.login-block {
+    width: 320px;
+    padding: 20px;
+    /*background: #fff;*/
+    border-radius: 5px;
+    border-top: 10px solid #ff656c;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-family: Montserrat;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background: #fff url('http://i.imgur.com/u0XmBmv.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px top no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background: #fff url('http://i.imgur.com/Qf83FTt.png') 20px bottom no-repeat;
+    background-size: 16px 80px;
+}
+
+.login-block input:active, .login-block input:focus {
+    border: 1px solid #ff656c;
+}
+
+.login-block input#submitbtn {
+    width: 100%;
+    height: 40px;
+    background: #ff656c;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e15960;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: Montserrat;
+    outline: none;
+    cursor: pointer;
+}
+
+.login-block input#submitbtn:hover {
+    background: #ff7b81;
+}
+

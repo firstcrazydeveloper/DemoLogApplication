@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="DemoLoginAPP" ng-controller="MainAPPCtrl">
+<head>
+    <style>
+        /* This helps the ng-show/ng-hide animations start at the right place. */
+        /* Since Angular has this but needs to load, this gives us the class early. */
+        .ng-hide {
+            display: none !important;
+        }
+    </style>
+    <link href="cd_icon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <title ng-bind-template="{{DemoLoginAPPFactory.GetPageTitle()}}"></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta name="keywords" content="Demo Login Application">
+    <meta name="description" content="Demo Login Application">
+    
+    
+    <!-- styles:css --><!-- endinject -->
+
+
+    <script>
+        // Must be first. IE10 mobile viewport fix
+        if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement("style");
+            var mq = "@-ms-viewport{width:auto!important}";
+            msViewportStyle.appendChild(document.createTextNode(mq));
+            document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+        }
+    </script>
+    
+   
+    <script src="scripts/jquery-2.1.1.js"></script>
+
+   
+
+    <!-- library:js -->
+    <!-- endinject -->
+    <!-- DemoLoginAPP:js -->
+    <!-- endinject -->
+    <!-- inject:js -->
+    <!-- endinject -->
+
+
+</head>
+<body>
+    <div ng-include="'App/Share/header.ShareTemplate.html'"></div>
+
+    <!--<div class="contentdisplay" ng-view=""></div>-->
+    
+    <div ng-view=""></div>
+    <!--<div ng-include="'App/Share/footer.ShareTemplate.html'"></div>-->
+   
+</body>
+</html>

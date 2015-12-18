@@ -1,0 +1,25 @@
+{
+  "name": "Gulp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "del": "*",
+        "gulp": "^3.9.0",
+        "gulp-angular-filesort": "*",
+        "gulp-browserify": "*",
+        "gulp-clean": "*",
+        "gulp-concat": "*",
+        "gulp-if": "*",
+        "gulp-ignore": "*",
+        "gulp-inject": "*",
+        "gulp-jshint": "*",
+        "gulp-minify-css": "*",
+        "gulp-rename": "*",
+        "gulp-rev": "*",
+        "gulp-uglify": "*",
+        "gulp-using": "*",
+        "gulp-util": "*",
+        "yargs": "*"
+    },
+    "devdependencies": {}
+}
